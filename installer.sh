@@ -10,7 +10,7 @@ echo "
   =        =         =     =   = 
   ======  =           =    =   ===== "
 
-#command: wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/levi45-addonsmanager/main/installer.sh -O - | /bin/sh ##
+#command: wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/levi45addons/main/installer.sh -O - | /bin/sh ##
 
 #############################################################
 version=3.4
@@ -25,7 +25,7 @@ cd /tmp
 set -e
 echo "===> Downloading And Installing plugin Please Wait ......"
 echo
-wget "https://raw.githubusercontent.com/tarekzoka/levi45-addonsmanager/main/levi45-addonsmanager_all.tar.gz"
+wget "https://raw.githubusercontent.com/tarekzoka/levi45addons/main/levi45-addonsmanager_all.tar.gz"
 tar -xzf levi45-addonsmanager_all.tar.gz -C /
 set +e
 rm -f levi45-addonsmanager_all.tar.gz
